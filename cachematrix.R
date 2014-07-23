@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
     solution <<- NULL
   }
   
-  ## now a method to retrieve the value of the matrix via an anonymous function
+  ## now a method to retrieve the value of the matrix 
   get <- function() x
   
   ## and a method to store a calculated solution to the matrix in the CacheMatrix object
